@@ -324,6 +324,7 @@ a:hover,
   .services-container {
     flex-direction: column;
     align-items: left;
+    margin: 0 auto; /* Center it properly */
     gap: 25px;
     width: 90%;
     padding: 20px;
@@ -1345,6 +1346,7 @@ a:hover,
     box-shadow: 0 15px 30px rgba(0,0,0,0.1); /* Adds a more prominent shadow */
 
 }
+
 
 
 
