@@ -323,7 +323,6 @@ a:hover,
 @media (max-width: 768px) {
   .services-container {
     flex-direction: column;
-    align-items: left;
     margin: 0 auto; /* Center it properly */
     gap: 25px;
     width: 90%;
@@ -332,17 +331,15 @@ a:hover,
 
   .services-heading {
     font-size: 30px;
-    text-align: left;
   }
 
   .services-right p {
     font-size: 16px;
-    text-align: left;
   }
 
    /* Carousel Speed */
   .carousel-track {
-    animation: scrollLeft 20s linear infinite !important;
+    animation: scrollLeft 15s linear infinite;
   }
 }
 
@@ -1346,6 +1343,7 @@ a:hover,
     box-shadow: 0 15px 30px rgba(0,0,0,0.1); /* Adds a more prominent shadow */
 
 }
+
 
 
 
