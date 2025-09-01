@@ -232,7 +232,7 @@ a:hover,
 
   /* Hero */
  .hero {
-     padding: 40px 20px;
+    padding: 40px 20px;
     height: auto;                 /* stop fixed cutoff */
     text-align: left;           /* center content */
     background-size: cover;       /* fix stretching */
@@ -332,12 +332,12 @@ a:hover,
 
   .services-heading {
     font-size: 28px;
-    text-align: center;
+    text-align: left;
   }
 
   .services-right p {
     font-size: 16px;
-    text-align: center;
+    text-align: left;
   }
 
    /* Carousel Speed */
@@ -1346,5 +1346,6 @@ a:hover,
     box-shadow: 0 15px 30px rgba(0,0,0,0.1); /* Adds a more prominent shadow */
 
 }
+
 
 
