@@ -216,7 +216,7 @@ a:hover,
   .navbar-container {
     flex-direction: column;
     align-items: flex-start;
-    padding: 16px 20px;
+    padding: 16px 16px;
   }
 
   .logo {
@@ -234,7 +234,7 @@ a:hover,
  .hero {
      padding: 40px 20px;
     height: auto;                 /* stop fixed cutoff */
-    text-align: center;           /* center content */
+    text-align: left;           /* center content */
     background-size: cover;       /* fix stretching */
     background-position: center;
   }
@@ -1346,4 +1346,5 @@ a:hover,
     box-shadow: 0 15px 30px rgba(0,0,0,0.1); /* Adds a more prominent shadow */
 
 }
+
 
