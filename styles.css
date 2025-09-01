@@ -322,16 +322,15 @@ a:hover,
 /* Mobile responsive */
 @media (max-width: 768px) {
   .services-container {
-    display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     gap: 25px;
-    width: 100%;
+    width: 90%;
     padding: 20px;
   }
 
   .services-heading {
-    font-size: 28px;
+    font-size: 30px;
     text-align: left;
   }
 
@@ -1346,6 +1345,7 @@ a:hover,
     box-shadow: 0 15px 30px rgba(0,0,0,0.1); /* Adds a more prominent shadow */
 
 }
+
 
 
 
